@@ -1,3 +1,5 @@
+/* .module.css는 네임이 겹칠 걱정이 없기때문에 클레스네임을 단순하게 지어도 됨 */
+
 .checkbox{
     display: flex;
     align-items: center;
@@ -6,6 +8,8 @@
 .checkbox label{
     cursor: pointer;
 }
+
+/* 실제 input을 숨기기위한 코드 */
 .checkbox input{
     width: 0;
     height: 0;
@@ -21,6 +25,7 @@
 .icon{
     display: flex;
     align-items: center;
+    /* 아이콘의 크기를 폰트 사이즈로 조절가능 */
     font-size: 2rem;
     margin-right: 0.25rem;
     color: #adb5bd;
